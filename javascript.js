@@ -1,8 +1,8 @@
 console.log("hello");
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'resume1,pdf.pdf'; 
-  link.download = 'Parth_Patel_Resume.pdf'; 
+  link.href = 'Parth_Patel_Resume.pdf'; 
+  link.download = ''; 
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

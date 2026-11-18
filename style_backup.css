@@ -1,0 +1,596 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fbfbfc;
+  background-color: #000021;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.purple{
+  color: blueviolet;
+}
+#menu{
+  display: none;
+}
+#cancel{
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 80px;
+  background-color: #121230;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  margin-right: 90px;
+}
+
+nav ul li {
+  list-style: none;
+ 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+nav ul li a:hover {
+  color: #360ce0;
+}
+
+/* HERO SECTION */
+.fristSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 5%;
+  flex-wrap: wrap;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+  flex: 1;
+  min-width: 280px;
+}
+
+.rightSection img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* BUTTONS */
+.bt1, .bt2 {
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.bt1:hover, .bt2:hover {
+  background-color: #360ce0;
+  color: black;
+}
+
+/* ABOUT + EDUCATION SECTION */
+
+#h3{
+  margin-left: px;
+}
+
+.about-edu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 5%;
+  align-items: flex-start;
+}
+
+.about-heading-left h2 {
+  font-size: 50px;
+  color: white;
+  
+  margin-left: 40px;
+}
+.image img{
+  margin-top: 150px;
+  margin-left: -310px;
+}
+
+.about-edu-container .image img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.about-summary {
+  flex: 1;
+  min-width: 280px;
+  margin-top: 170px;
+}
+
+.about-summary p,
+.about-summary li {
+  color: white;
+  line-height: 1.6;
+}
+
+.about-summary h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+/* SKILLS SECTION */
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 5%;
+}
+.sum1{
+  width: 150px;
+}
+.sum1 img {
+  height: 110px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.picture {
+  text-align: center;
+  margin-top: -100px;
+  margin-left: 300px;
+}
+
+.btn3 {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 300px;
+}
+#h2{
+  font-size: 40px;
+}
+
+.btn3:hover {
+  background-color: #360ce0;
+  color: black;
+}
+
+/* CONTACT */
+.four {
+  padding: 40px 5%;
+}
+
+.h3 {
+  font-size: 40px;
+}
+
+.sub-title p {
+  margin: 20px 0;
+}
+
+.social-icons a i {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover i {
+  color: blueviolet;
+  transform: translateY(-5px);
+}
+
+/* FORM */
+form input,
+form textarea {
+  width: 100%;
+  background: #262626;
+  padding: 15px;
+  margin: 10px 0;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn4 {
+  padding: 12px 24px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn4:hover {
+  background-color: #360ce0;
+  color: black;
+}
+
+/* FOOTER */
+.copyright {
+  text-align: center;
+  padding: 20px;
+  background-color: #121230;
+  color: white;
+  font-size: 14px;
+}
+
+/* RESPONSIVE MEDIA QUERIES  */
+
+/* Phones */
+@media ( min-width : 100px) and   ( max-width: 373px) {
+ 
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: no;
+  }
+  nav ul li  a{
+  list-style: none;
+  margin-left: -20px;
+
+}
+nav ul{
+  gap: 30px;
+  margin-left: 80px;
+}
+
+  .leftSection {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .rightSection img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-edu-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-heading-left h2 {
+    font-size: 28px;
+    text-align: left;
+  }
+    .image img{
+      margin-left: -9px;
+      margin-top: 10px;
+    }
+  .about-summary {
+    text-align: left;
+    margin-top: -30px;
+  }
+
+  .third {
+    flex-direction: column;
+  }
+
+  .sum1 img {
+    max-width: 200px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+  .bt1,bt2{
+  size: 30px;
+  }
+
+  .btn3, .btn4 {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+  }
+  .picture {
+    text-align:left;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+  writing-mode: horizontal-tb;
+
+display: inline-block;
+  white-space: normal; 
+  width: auto;
+}
+#h3{
+  margin-left: 10px;
+  font-size: 40px;
+}
+.left{
+  margin-top: 30px;
+  margin-right: 100px;
+  font-size: 0.9rem;
+}
+#menu{
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  top: 25px;
+  margin-left: 140px;
+}
+#cancel{
+  display: block;
+  font-size: 25px;
+  margin-top: -49px;
+  margin-left: 200px;
+  
+}
+nav ul li{
+  width: 50px;  
+  margin: 5px;
+  margin-left: 80px;
+}
+nav ul{
+  background-color: #210b7a;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 200px;
+  padding-top: 50px;
+  flex-direction: column;
+  margin-right: -10px;
+  z-index: 2;
+}
+}
+@media ( min-width : 373px) and   ( max-width: 600px) {
+ 
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: no;
+  }
+  nav ul li  a{
+  list-style: none;
+  margin-left: -20px;
+
+}
+nav ul{
+  gap: 30px;
+  margin-left: 80px;
+}
+
+  .leftSection {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .rightSection img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-edu-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-heading-left h2 {
+    font-size: 28px;
+    text-align: left;
+  }
+    .image img{
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+  .about-summary {
+    text-align: left;
+    margin-top: -30px;
+  }
+
+  .third {
+    flex-direction: column;
+  }
+
+  .sum1 img {
+    max-width: 200px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+  .bt1,bt2{
+  size: 30px;
+  }
+
+  .btn3, .btn4 {
+   size: 30px;
+    margin: 10px auto;
+    display: block;
+  }
+  .picture {
+    text-align:left;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+  writing-mode: horizontal-tb;
+
+display: inline-block;
+  white-space: normal; 
+  width: auto;
+}
+#h3{
+  margin-left: 10px;
+  font-size: 40px;
+}
+.left{
+  margin-top: 30px;
+  margin-right: 200px;
+  font-size: 1.1rem;
+}
+#menu{
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  top: 25px;
+  margin-left: 140px;
+}
+#cancel{
+  display: block;
+  font-size: 25px;
+  margin-top: -49px;
+  margin-left: 200px;
+  
+}
+#cancel :hover{
+  color: #360ce0;
+}
+nav ul li{
+  width: 50px;  
+  margin: 5px;
+  margin-left: 80px;
+}
+nav ul{
+  background-color: #210b7a;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 200px;
+  padding-top: 50px;
+  flex-direction: column;
+  margin-right: -10px;
+  z-index: 2;
+}
+}
+@media ( min-width : 600px) and   ( max-width: 867px) {
+ 
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: no;
+  }
+  nav ul li  a{
+  list-style: none;
+  margin-left: -20px;
+
+}
+nav ul{
+  gap: 30px;
+  margin-left: 80px;
+}
+
+  .leftSection {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .rightSection img {
+    max-width: 390px;
+    margin-top: 20px;
+  }
+
+  .about-edu-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-heading-left h2 {
+    font-size: 28px;
+    text-align: left;
+  }
+    .image img{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  .about-summary {
+    text-align: left;
+    margin-top: -30px;
+  }
+
+  .third {
+    flex-direction: column;
+  }
+
+  .sum1 img {
+    max-width: 200px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+  .bt1,bt2{
+  size: 30px;
+  }
+
+  .btn3, .btn4 {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+  }
+  .picture {
+    text-align:left;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+  writing-mode: horizontal-tb;
+
+display: inline-block;
+  white-space: normal; 
+  width: auto;
+}
+#h3{
+  margin-left: 10px;
+  font-size: 40px;
+}
+.left{
+  margin-top: 30px;
+  margin-right:400px;
+  font-size: 1.1rem;
+}
+#menu{
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  top: 25px;
+  margin-left: 140px;
+}
+#cancel{
+  display: block;
+  font-size: 25px;
+  margin-top: -49px;
+  margin-left: 400px;
+  
+}
+nav ul li{
+  width: 50px;  
+  margin: 5px;
+  margin-left: 80px;
+}
+nav ul{
+  background-color: #210b7a;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 200px;
+  padding-top: 50px;
+  flex-direction: column;
+  margin-right: -10px;
+  z-index: 2;
+}
+}

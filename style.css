@@ -1,0 +1,304 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  body{
+    color: rgb(251, 251, 252);
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+  }
+  nav
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(18, 18, 48);
+  }
+  nav ul {
+    display:flex;
+    justify-content: center;
+    gap: 30px
+  }
+  nav ul li {
+    list-style: none;
+    margin:43px;
+    word-spacing: 20px;
+    margin-left: 60px;
+  }
+ nav ul li a{
+    color: rgb(254, 251, 251);
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+      color: rgb(54, 12, 224);
+      font-size: 1.02rem;
+  }
+  .bt1{
+    margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+  .bt2{
+    margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  } 
+  .bt1:hover{
+    color: black;
+    background-color: rgb(54, 12, 224);
+    border-color: blue;
+  }
+  .bt2:hover{
+    color: black;
+    background-color: rgb(54, 12, 224);
+    border-color: blue;
+  }
+  .left{
+    font-size: 1.8rem;
+  }
+  .fristSection{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 3px;
+  }
+   .fristSection > div{
+    width: 30%;
+  }
+  .rightSection img{
+    width: 600px;
+    height: auto;
+    margin-left: 4px;
+  }
+
+  .leftSection {
+   font-size: 2.5rem;
+   margin: 30px 0; 
+  }
+  .purple{
+    color: blueviolet;
+  }
+
+.about-edu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 10%;
+
+  gap: 40px;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+}
+
+.about-heading-left {
+  width: 100%;
+  text-align: left;
+  margin-right: 500px;
+  margin-bottom: -20px;
+}
+
+.about-heading-left h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  margin-left: -30px;
+}
+
+
+.about-edu-container .image img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  margin-left: -56px;
+}
+
+
+.about-summary {
+  flex: 1;
+  min-width: 280px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 60px;
+}
+
+.about-summary p {
+  line-height: 1.7;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.about-summary ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.about-summary li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.about-summary h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.edu-year {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.secondsection{
+  margin-bottom: -40PX;
+}
+  .third{
+    display: flex;
+    justify-content: space-around;
+  }
+  .third {
+   width: 500px;
+   margin-left: 20px;
+  }
+  #h2{
+    font-size:40px;
+    margin-top: 30px;
+    margin-left:60px;
+    width: 300px;
+    height: auto;
+  }
+  .picture{
+    margin-left:380px;
+    margin-top: -120px;
+    width: 900px;
+  }
+  .sum1 img{
+    margin-top:90px ;
+    margin-left: 30px;
+    height: 150px;
+    width: auto;
+  }
+  .sum1{
+    width: 150px; 
+  }
+  .btn3{
+  margin-left: 380px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+ .btn3:hover{
+  color: black;
+    background-color: rgb(54, 12, 224);
+    border-color: blue;
+
+ }
+ .four{
+  margin: 40px;
+  margin-left:10px;
+ }
+ .h3{
+  font-size: 40px;
+  margin-top: 190px;
+  margin-left: 70px;
+  word-spacing: 20px;
+  width: 300px;
+ }
+ 
+ .sub-title>p{
+  margin-left: 70px;
+  margin-top: 40px;
+  width: 300px;
+ }
+ .contect-right{
+  margin-left: 380PX;
+  margin-top: -90PX;
+ }
+ .sub-title p i{
+  color: blueviolet;
+  margin-right: 15px;
+  font-size: 25px;
+ }
+ .social-icons a i{
+  color: rgb(252, 252, 252);
+  font-size: 25px;
+  margin-left:19px;
+ }
+ .social-icons{
+  margin-left: 48px;
+  width: 200px;
+  margin-top: 40px;
+  transition: transform 0.5s;
+ }
+ .social-icons a{
+   transition: transform 0.5s;
+   color: blueviolet;
+ }
+ .social-icons I:hover{
+ color: blueviolet;
+ transform: translateY(-5px);
+ }
+ .contect-right form{
+  width: 100%;
+ }
+ form input,form textarea{
+  width: 800px;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: rgb(237, 240, 245);
+  font-size: 18px;
+  border-radius:19px;
+ }
+ .btn4{
+  padding: 15px 25px;
+  margin-left: 30px;
+  font-size: 1rem;
+  background-color: blueviolet;
+  color: rgb(255, 254, 254);
+  border: none;
+  cursor: pointer;
+ }
+ .btn4:hover{
+  background-color: blue;
+  color: black;
+ }
+ .contect-right{
+  margin-left: 550px;
+  margin-top: -200px;
+ }
+ .copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: rgb(18, 18, 48);
+  font-weight: 300;
+  margin-top: 30px;
+ }
+ 
+ /*---------------------css for small screen- ------------------------------*/
+
+ @media(max-width:768){
+  body{
+    background-color: aqua;
+  }
+ }
