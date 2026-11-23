@@ -30,6 +30,10 @@ nav {
   padding: 0 5%;
   height: 80px;
   background-color: #121230;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
 }
 
 nav ul {
