@@ -713,3 +713,13 @@ nav ul{
     box-shadow: none !important;
     outline: none;
 }
+
+a[href*="github.com"] {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+a[href*="github.com"]::after {
+    display: none !important;
+}
