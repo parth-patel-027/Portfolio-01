@@ -6,11 +6,11 @@
 }
 
 body {
-  color: #fbfbfc;
-  background-color: #000021;
-  font-family: 'Poppins', sans-serif;
-  width: 100%;
-  overflow-x: hidden;
+    color: #fbfbfc;
+    background-color: #000021;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    overflow-x: clip;
 }
 
 /* NAVBAR */
