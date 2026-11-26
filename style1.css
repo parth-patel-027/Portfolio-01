@@ -703,3 +703,13 @@ nav ul{
         border: none !important;
     }
 }
+.github-btn,
+.github-btn a,
+.github-btn:visited,
+.github-btn:hover,
+.github-btn:active {
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+    outline: none;
+}
