@@ -689,4 +689,17 @@ nav ul{
         padding-top: 80px;
     }
 }
+/* GitHub button mobile fix */
+@media screen and (max-width: 768px) {
+    .github-btn,
+    .github-btn a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+        border-bottom: none !important;
+    }
 
+    .github-btn {
+        background-color: #121230 !important;
+        border: none !important;
+    }
+}
