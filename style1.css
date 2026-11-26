@@ -670,3 +670,23 @@ nav ul{
     line-height: 1.8;
 }
 
+/* PC Navbar Sticky Fix */
+@media screen and (min-width: 769px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    nav {
+        width: 100%;
+        position: relative;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+}
+
